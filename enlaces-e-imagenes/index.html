@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Web</title>
+    <link rel="icon" href="imagenes/galaxia.ico">
+</head>
+<body>
+    <h1>Página Web</h1>
+    <!--Enlaces-->
+    <a href="imagenes.html">Imágenes</a>
+    <a href="links.html">Links</a>
+    <a href="misc/extras.html">Extras</a>
+    <br>
+
+    <!--Imágenes-->
+    <h3>Girasoles en el campo</h3> <!--Elemento en bloque-->
+    <img src="imagenes/girasoles.jpg" width="100" height="150" alt="Girasoles en el campo"> <!--Elementos en línea-->
+    <img src="imagenes/girasoles.jpg" width="200" height="310">
+    <img src="imagenes/girasoles.jpg" width="240" height="330">
+    <br>
+
+    <!--Otros elementos de HTML5-->
+    <h3>Otros elementos HTML5</h3>
+
+    <h4>Etiqueta embed</h4>
+    <embed type="image/jpg" src="imagenes/tucan.jpg" width="150" height="150"> <!--Incrustar una imagen-->
+    <embed type="video/webm" src="video.mp4" width="400" height="300"> <!--Incrustar un video-->
+    <embed type="text/html" src="misc/extras.html" width="500" height="300"> <!--Incrustar un archivo html-->
+    <br>
+
+    <h4>Etiqueta video</h4>
+    <video src="video.mp4" width= "500" autoplay controls muted></video>
+    <br>
+    
+    <h4>Etiqueta svg</h4>
+    <svg width="100" height="100">
+        <circle cx="50"cy="50" r="35" stroke="black" fill="purple" />
+    </svg>
+
+    <h4>Etiqueta datalist</h4>
+    <label for="c">Seleccione una ciudad:</label>
+    <input list="ciudades" name="c" id="c">
+    <datalist id="ciudades">
+        <option value="Cali">
+        <option value="Barranquilla">
+        <option value="Medellín">
+        <option value="Pereira">
+        <option value="Popayán">
+    </datalist>
+    <br>
+
+    <details>
+        <summary>Detalles</summary>
+        En esta página encontrarás imágenes, videos, gráficas, entre otros
+    </details>
+    
+   <h4>Etiqueta menu</h4>
+    <menu type="toolbar" id="menu1"> 
+        <li><button>Opción 1</button></li>
+        <li><button>Opción 2</button></li>
+        <li><button>Opción 3</button></li>
+    </menu>
+</body>
+</html>
